@@ -13,7 +13,7 @@ namespace ActOnShapeSelection
             Application.ShapeAdded += Application_ShapeAdded;
         }
 
-        private void Application_ShapeAdded(Visio.Shape Shape)
+        private void Application_ShapeAdded(Visio.Shape Shape) 
         {
             _isAddingAShape = true;
         }
